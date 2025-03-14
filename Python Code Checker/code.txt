@@ -1,0 +1,17 @@
+import random
+import math
+
+
+def generate_random_integer(min_val, max_val):
+    return random.randint(min_val, max_val)
+
+
+def calculate_square_root(number):
+    return math.sqrt(number)
+
+
+random_number = generate_random_integer(1, 10)
+print(f"Random number: {random_number}")
+
+square_root = calculate_square_root(25)
+print(f"Square root of 25: {square_root}")
